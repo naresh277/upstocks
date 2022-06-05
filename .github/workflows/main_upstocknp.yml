@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'upstocknp'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DEA3B0F2684147A385646B1801578401 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_87F97797D24440FA9962CB4641C241F4 }}
