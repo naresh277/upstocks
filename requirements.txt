@@ -60,3 +60,4 @@ umpy==0.1.0
 urllib3==1.26.9
 Werkzeug==2.1.2
 wrapt==1.14.1
+whitenoise==6.1.0
