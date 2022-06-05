@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'django-insecure-lc(d#&j3#$@=&@yza7x1a$kvedp0i%b19h&m*p2ymdekic0zr('
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = FALSE   
 
 ALLOWED_HOSTS = ['upstocknp.azurewebsites.net']
 
@@ -133,7 +133,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 STATIC_URL = 'static/'
 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_ROOT = BASE_DIR, 'media'
 MEDIA_URL = '/media/'
 
 
@@ -151,4 +151,4 @@ CHANNEL_LAYERS = {
     }
 }
 
-django_heroku.settings(locals())
+
