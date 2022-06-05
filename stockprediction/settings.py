@@ -129,11 +129,11 @@ STATICFILES_DIRS = [
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_ROOT =   BASE_DIR, 'staticfiles'
 
 STATIC_URL = 'static/'
 
-MEDIA_ROOT = BASE_DIR, 'media'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 MEDIA_URL = '/media/'
 
 
