@@ -73,7 +73,7 @@ def predict_future_prices(model, test_data, df1):
     lst_output = []
     n_steps = 100
     i = 0
-    while(i < 30):
+    while(i < 10):
         if(len(temp_input) > 100):
             x_input = np.array(temp_input[1:])
             # print("{} day input {}".format(i, x_input))
